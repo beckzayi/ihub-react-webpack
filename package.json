@@ -7,7 +7,9 @@
   "scripts": {
     "dev": "webpack",
     "start": "webpack server",
-    "test": "jest"
+    "test": "jest",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -19,12 +21,20 @@
     "@babel/preset-env": "^7.16.4",
     "@babel/preset-react": "^7.16.0",
     "@babel/preset-typescript": "^7.16.0",
+    "@storybook/addon-actions": "^6.4.9",
+    "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addon-links": "^6.4.9",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/react": "^6.4.9",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
     "babel-jest": "^27.4.4",
     "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
     "html-webpack-plugin": "^5.5.0",
     "jest": "^27.4.4",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
     "ts-loader": "^9.2.6",
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1",
